@@ -1,3 +1,5 @@
 numba
 cython
+scipy
+sklearn
 vpython
