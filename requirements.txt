@@ -2,4 +2,5 @@ numba
 cython
 scipy
 sklearn
+f2py
 vpython
