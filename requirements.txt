@@ -2,4 +2,5 @@ numba
 cython
 scipy
 sklearn
+matplotlib
 vpython
