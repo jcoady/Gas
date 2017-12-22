@@ -3,4 +3,4 @@ cython
 scipy
 sklearn
 matplotlib
-vpython==7.1.6
+vpython>=7.3.2
