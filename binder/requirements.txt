@@ -1,0 +1,7 @@
+numba
+cython
+scipy
+sklearn
+matplotlib
+vpython
+jupyterlab-vpython
