@@ -1,4 +1,5 @@
 from vpython import *
+from time import perf_counter
 
 # Hard-sphere gas.
 
@@ -105,7 +106,7 @@ def checkCollisions():
 
 nhisto = 0 # number of histogram snapshots to average
 count = 0
-timer = clock()
+timer = perf_counter()
 
 while True:
     rate(1000000)
@@ -170,6 +171,6 @@ while True:
     
     count += 1
     if count >= 1000: break
-timer = clock()-timer
+timer = perf_counter() - timer
 print(1000*timer/count, 'ms per loop')
 vdist.data = accum
